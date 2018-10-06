@@ -31,9 +31,9 @@ class Main extends Component {
 
 	saveArticle = (index) => {
 		// event.preventDefault();
-	  //   API.saveArticle(this.state.searchResults[index]).then((response) => {
-	  //     this.getArticles();
-	  //   });
+	    API.saveArticle(this.state.searchResults[index]).then((response) => {
+	      this.getArticles();
+	    });
 	}
 
 	getSavedArticles = () => {

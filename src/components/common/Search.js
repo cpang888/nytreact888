@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
+import React from "react";
 
 const Search = props =>
 
@@ -30,12 +31,12 @@ const Search = props =>
 
               <div className="form-group">
                 <label htmlFor="startYear">Start Year (Optional):</label>
-                <input type="text" className="form-control" id="startYear" placeholder="2010" value={props.startYear} onChange={props.handleStartYear} />
+                <input type="text" className="form-control" id="startYear" placeholder="2015" value={props.startYear} onChange={props.handleStartYear} />
               </div>
 
               <div className="form-group">
                 <label htmlFor="endYear">End Year (Optional):</label>
-                <input type="text" className="form-control" id="endYear" placeholder="2017" value={props.endYear} onChange={props.handleEndYear} />
+                <input type="text" className="form-control" id="endYear" placeholder="2018" value={props.endYear} onChange={props.handleEndYear} />
               </div>
 
               <button onClick={props.handleFormSubmit} type="submit" className="btn btn-default" id="run-search"><i className="fa fa-search" aria-hidden="true" /> Search</button>

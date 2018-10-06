@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
+import React from "react";
 
 const Saved = (props) => {
   const removeArticle = (event) =>{
