@@ -24,6 +24,7 @@ const API = {
     };
     newArticle.by = article.byline ? article.byline.original : "No Author";
     
+    console.log();
     return axios.post("/api/saved", newArticle);
   },
   getSavedArticles: function() {

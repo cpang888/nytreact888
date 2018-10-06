@@ -31,6 +31,7 @@ class Main extends Component {
 
 	saveArticle = (index) => {
 		// event.preventDefault();
+		console.log("**************");
 	    API.saveArticle(this.state.searchResults[index]).then((response) => {
 	      this.getArticles();
 	    });
